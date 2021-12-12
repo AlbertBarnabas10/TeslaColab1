@@ -1,6 +1,6 @@
 # TeslaColab1
 
-##Requirements:
+## Requirements:
 
 - PNG Models for each car models
 - Elon Musk
@@ -8,18 +8,18 @@
 - Tesla Logo
 - Gotham Medium (Fonts)
 
-##Explanation:
+## Explanation:
 
 - Assets: Tempat tarok foto,icon,css,js
 - Main page: index.html
 - Css untuk footer dan navigation dipisah
 - Page untuk tiap model mobil dipisah dan ditarok di folder pages
 
-##Progress:
+## Progress:
 
 - Navigation (Responsive Done)
 - Footer (Responsive blm siap)
 
-##Kekurangan:
+## Kekurangan:
 
 - Warna Masih asal
