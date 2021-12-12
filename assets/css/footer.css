@@ -1,0 +1,21 @@
+footer {
+  background-color: rgb(172, 118, 118);
+}
+footer .footerContainer {
+  max-width: 1300px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+footer a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: aqua;
+}
