@@ -23,3 +23,5 @@
 ## Kekurangan:
 
 - Warna Masih asal
+- Belum cari assets
+- Footer cuman nampak di main page aja (Karena belum set padding/blm ada konten di page lain)
