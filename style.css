@@ -1,5 +1,9 @@
 .HeroSection {
   padding-top: 100px;
+<<<<<<< HEAD
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url('./assets/img/1.jpg');
+=======
+  background-image: url("./assets/img/1.jpg");
+>>>>>>> f56aada6afe9794c6055b4471f1e685778ea8246
   height: 100vh;
 }
