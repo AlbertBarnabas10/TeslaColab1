@@ -1,9 +1,66 @@
 .HeroSection {
   padding-top: 100px;
-<<<<<<< HEAD
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url('./assets/img/1.jpg');
-=======
-  background-image: url("./assets/img/1.jpg");
->>>>>>> f56aada6afe9794c6055b4471f1e685778ea8246
+  background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("./assets/img/4.png");
   height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: heroBG 20s infinite; /* Masih belum ada animasi */
+}
+.HeroSection:hover {
+  background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("./assets/img/2.jpg");
+}
+
+@keyframes heroBG {
+  0% {
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("./assets/img/4.png");
+  }
+  25% {
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("./assets/img/1.jpg");
+  }
+  50% {
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("./assets/img/2.jpg");
+  }
+  75% {
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("./assets/img/3.jpg");
+  }
+  100% {
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("./assets/img/4.png");
+  }
 }
