@@ -6,7 +6,6 @@
       rgba(0, 0, 0, 0.9)
     ),
     url("./assets/img/4.png");
-  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -119,21 +118,20 @@
 }
 .aboutcarousel img {
   width: 100%;
-  padding: 50px;
+  padding: 7%;
 }
 .aboutcarousel .carouselselection {
-  z-index: 999;
   display: flex;
   justify-content: center;
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: auto;
 }
 .aboutcarousel .carouselselection img {
-  z-index: 999;
   max-width: 18%;
   max-height: 70px;
-  margin: 0 10px;
+  margin: 0 2%;
   padding: 0;
 }
 .aboutcarousel .carouselselection img.active {
