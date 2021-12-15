@@ -1,5 +1,6 @@
 footer {
   background-color: rgb(172, 118, 118);
+  height: 70px;
 }
 footer .footerContainer {
   max-width: 1300px;
