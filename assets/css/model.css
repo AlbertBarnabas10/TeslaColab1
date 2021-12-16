@@ -44,3 +44,20 @@ nav {
   /* display: flex; */
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .heroDescBox {
+    margin: 0 3vw;
+    /* display: flex; */
+    text-align: center;
+  }
+  .heroDescBox h2 {
+    font-size: 6vw;
+  }
+  .heroDescBox p {
+    font-size: 3vw;
+  }
+  .hidden {
+    display: none;
+  }
+}

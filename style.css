@@ -76,7 +76,7 @@
   font-size: 2rem;
 }
 .HeroWrapper #HeroDesc {
-  animation: typingeffect 1.2s infinite;
+  animation: typingeffect 1.2s linear infinite;
 }
 @keyframes typingeffect {
   from {
@@ -146,4 +146,16 @@
 }
 .aboutcarousel .carouselselection img.active {
   border: 5px solid black;
+}
+
+@media (max-width: 768px) {
+  .aboutWrapper {
+    flex-direction: column;
+  }
+  .aboutdetail {
+    width: 100%;
+  }
+  .aboutcarousel {
+    width: 100%;
+  }
 }
