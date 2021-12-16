@@ -75,7 +75,17 @@
   color: white;
   font-size: 2rem;
 }
-
+.HeroWrapper #HeroDesc {
+  animation: typingeffect 1.2s infinite;
+}
+@keyframes typingeffect {
+  from {
+    border-right: 1px solid white;
+  }
+  to {
+    border-right: 0px;
+  }
+}
 /* About */
 
 .aboutWrapper {

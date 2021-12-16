@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "Gotham medium";
+  src: url("../Gotham-Font/GothamMedium.ttf");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Gotham medium", Arial, Helvetica, sans-serif;
 }
 
 nav {
