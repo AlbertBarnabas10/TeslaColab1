@@ -19,6 +19,9 @@
 
 - Navigation (Responsive Done)
 - Footer (Responsive blm siap)
+- Footer Design Done
+- About Model Design Done
+- Resposive Footer ongoing
 
 ## Kekurangan:
 
