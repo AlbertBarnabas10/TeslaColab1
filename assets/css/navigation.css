@@ -1,8 +1,15 @@
+@font-face {
+  font-family: "Gotham medium";
+  src: url("../Gotham-Font/GothamMedium.ttf");
+  /* font-family: "Gotham light"; */
+  /* src: url("../Gotham-Font/GothamLight.ttf"); */
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Gotham medium", Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -10,7 +17,9 @@ nav {
   width: 100vw;
   max-width: 100%;
   height: 70px;
-  /* background-color: #0F2027; */
+  background-color: #00000000;
+  z-index: 999;
+  transition: background-color 500ms;
 }
 
 nav .navContainer {
@@ -25,6 +34,7 @@ nav .navContainer {
   display: flex;
   align-items: center;
   list-style: none;
+  z-index: 999;
 }
 
 .navContainer ul li a {
