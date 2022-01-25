@@ -65,5 +65,26 @@ footer a:hover {
   footer .footerContainer {
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerAbout{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footerAbout p{
+    text-align: center;
+  }
+
+  .footerLine{
+    width: 100%;
   }
 }
