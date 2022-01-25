@@ -229,6 +229,15 @@
     .aboutdetail {
         width: 100%;
     }
+
+    .aboutdetail p{
+      font-size: 1.2rem;
+    }
+
+    .aboutdetail a{
+      font-size: 1.2rem;
+    }
+
     .aboutcarousel {
         width: 100%;
     }

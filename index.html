@@ -121,6 +121,8 @@
     <script>
       $(window).on("load",function(){
         $(".loader-wrapper").fadeOut("slow");
+        const body = document.getElementsByTagName("body")[0];
+        body.style.overflow = "auto";
       });
   </script>
   </body>
