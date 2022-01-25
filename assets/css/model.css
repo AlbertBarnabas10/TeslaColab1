@@ -1,6 +1,7 @@
 nav {
   background-color: black;
 }
+
 .heroSection {
   width: 100vw;
   max-width: 100%;
@@ -10,6 +11,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .heroContainer {
@@ -21,15 +24,14 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
 }
 .heroContainer h1 {
   margin-top: 80px;
 }
 .heroContainer img {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
   width: 70%;
   height: fit-content;
 }

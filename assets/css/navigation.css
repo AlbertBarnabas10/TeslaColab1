@@ -12,6 +12,10 @@
   font-family: "Gotham medium", Arial, Helvetica, sans-serif;
 }
 
+body{
+  overflow: hidden;
+}
+
 nav {
   position: fixed;
   width: 100vw;

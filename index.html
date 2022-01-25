@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/navigation.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Tesla Colab</title>
   </head>
   <body>
@@ -30,6 +31,10 @@
         <h2 id="HeroDesc"></h2>
         <a href="#aboutSection">&#10549;</a>
       </div>
+    </div>
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
     </div>
 
     <div id="aboutSection">
@@ -112,5 +117,11 @@
     </footer>
     <script src="./assets/js/navigation.js"></script>
     <script src="./assets/js/index.js"></script>
+
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+  </script>
   </body>
 </html>
