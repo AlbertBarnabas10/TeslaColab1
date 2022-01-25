@@ -17,14 +17,14 @@
 
 ## Progress:
 
-- Navigation (Responsive Done)
-- Footer (Responsive blm siap)
-- Footer Design Done
-- About Model Design Done
-- Resposive Footer ongoing
+- All Component Done
 
 ## Kekurangan:
 
 - Warna Masih asal
 - Belum cari assets
 - Footer cuman nampak di main page aja (Karena belum set padding/blm ada konten di page lain)
+
+## Closure:
+- 25 January 2022 Tesla Colab 1 Done
+- Shout out to Albert Barnabas and Christoper Lim
