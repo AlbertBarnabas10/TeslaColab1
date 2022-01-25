@@ -1,9 +1,28 @@
 .HeroSection {
   padding-top: 100px;
-<<<<<<< HEAD
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url('./assets/img/1.jpg');
-=======
-  background-image: url("./assets/img/1.jpg");
->>>>>>> f56aada6afe9794c6055b4471f1e685778ea8246
+  background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.6)),url("./assets/img/1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
+  animation: hero 21s infinite;
 }
+
+@keyframes hero{
+  0%{
+    background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.6)),url("./assets/img/2.jpg");
+  }
+
+  33%{
+    background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.6)),url("./assets/img/3.jpg");
+  }
+
+  66%{
+    background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.6)),url("./assets/img/4.jpg");
+  }
+
+  100%{
+    background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.6)),url("./assets/img/1.jpg");
+  }
+}
+
