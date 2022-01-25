@@ -1,7 +1,7 @@
 var i = 0;
 var txt = "Provide the best for you."; /* The text */
 var speed = 100; /* The speed/duration of the effect in milliseconds */
-
+let ctr = 0;
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("HeroDesc").innerHTML += txt.charAt(i);
@@ -66,6 +66,7 @@ const toggleactivecarousel = (imgselected, chosenone, id) => {
   const descbutton = (document.getElementById(
     "aboutbutton"
   ).href = `./pages/${db[id].link}`);
+  ctr = id;
 };
 
 const imgselected = document.querySelectorAll(".childimg");
@@ -74,3 +75,13 @@ for (let i = 0; i < imgselected.length; i++) {
     toggleactivecarousel(imgselected, imgselected[i], i);
   });
 }
+
+setInterval(() => {
+  if (ctr == imgselected.length - 1) {
+    ctr = 0;
+    toggleactivecarousel(imgselected, imgselected[ctr], ctr);
+  } else {
+    ctr++;
+    toggleactivecarousel(imgselected, imgselected[ctr], ctr);
+  }
+}, 5000);
